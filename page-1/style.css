@@ -1,8 +1,96 @@
-body{
-  background:linear-gradient(rgba(182,40,103,0.95),rgba(253,121,11,0.95)),url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");; 
-  margin:0 0; 
-  overflow:hidden;
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-image: linear-gradient(rgba(182, 40, 103, 0.95), rgba(253, 121, 11, 0.95)),
+  url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");
+  overflow: hidden;
   background-size: cover;
   background-position: center center;
   position: relative;
+  margin: 0 0;
+  height:100vh;
+  width:100vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  color:white;
+}
+
+h1 {
+  margin: 4vw 0;
+  padding: 0;
+  color: #fff;
+  font: 6vw;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+    margin: 1vw 0;
+  padding: 0;
+  color: #fff;
+  font-size: 4vw;
+}
+
+
+p {
+  margin: 1vw 0;
+}
+
+.leaf {
+  height: 100%;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.inner {
+  margin: 50% auto;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2.5vw !important;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a:active {
+  padding-top: 2px;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.ycombinator{
+  text-align: center;
+  margin: 0 35vw;
+  width: 10vw;
+}
+
+.creator{
+  margin: 5vw;
+  width: 50vw;
+  text-align:center;
 }
