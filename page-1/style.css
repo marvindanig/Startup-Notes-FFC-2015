@@ -1,1 +1,8 @@
-body{background:rgba(255, 255, 255, 0.99); margin:0 0; overflow:hidden;} img { border: 0; -ms-interpolation-mode: bicubic; }
+body{
+  background:linear-gradient(rgba(182,40,103,0.95),rgba(253,121,11,0.95)),url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");; 
+  margin:0 0; 
+  overflow:hidden;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
