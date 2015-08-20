@@ -1,36 +1,33 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-
 body {
-  background-image: linear-gradient(rgba(182, 40, 103, 0.95), rgba(253, 121, 11, 0.95)),
-  url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(182, 40, 103, 0.95), rgba(253, 121, 11, 0.95)), url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");
+  background-image: linear-gradient(rgba(182, 40, 103, 0.95), rgba(253, 121, 11, 0.95)), url("//raw.githubusercontent.com/marvindanig/startup-notes-female-founders-conference-2015/master/page-1/images/bg.jpg");
   overflow: hidden;
   background-size: cover;
   background-position: center center;
   position: relative;
   margin: 0 0;
-  height:100vh;
-  width:100vw;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 3vw;
-  color:white;
+  height: 100vh;
+  width: 100vw;
+  font: 3.2vw/1.3 "Open Sans", sans-serif;
+  color: white;  letter-spacing: -.33px;
 }
 
 h1 {
   margin: 4vw 0;
   padding: 0;
   color: #fff;
-  font: 6vw;
+  font-size: 7vw;
   width: 100%;
   text-align: center;
 }
 
 h3 {
-    margin: 1vw 0;
+  margin: 2vw 0;
   padding: 0;
   color: #fff;
   font-size: 4vw;
 }
-
 
 p {
   margin: 1vw 0;
@@ -50,8 +47,16 @@ p {
 
 .flex {
   display: -webkit-box;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
   display: flex !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -60,7 +65,7 @@ p {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 2.5vw !important;
   outline: 0 none;
   text-decoration: none;
@@ -83,14 +88,28 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-.ycombinator{
+.ycombinator {
   text-align: center;
   margin: 0 35vw;
   width: 10vw;
 }
 
-.creator{
-  margin: 5vw;
-  width: 50vw;
-  text-align:center;
+.creator {
+  margin: 10vw 0;
+  width: 80vw;
+  text-align: center;
+}
+
+.one-half {
+  width: 35vw;
+}
+
+.greg {
+  width: 27vw;
+  margin: 0 auto;
+}
+
+.kim {
+  width: 16vw;
+  margin: 0 auto;
 }
