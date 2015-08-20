@@ -1,0 +1,38 @@
+body {
+  background: #fff;
+  margin: 0 0;
+  overflow: hidden;
+}
+
+.leaf {
+  height: 100%;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.inner {
+  margin: 40% auto;
+  width: 100vw;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.image {
+  width: 60vw;
+}
