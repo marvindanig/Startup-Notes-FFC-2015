@@ -10,10 +10,10 @@ On February 21, 2015, Y Combinator invited amazing female founders to tell their
 Enjoy, and good luck building!
 
 # Live Render
-The book is available live over here: [Startup Notes FFC-2015](https://bubbl.in/cover/startup-notes-ffc-2015-by-gregory-koberger)
+The book is live on Bubblin: [Startup Notes FFC-2015](https://bubbl.in/cover/startup-notes-ffc-2015-by-gregory-koberger)
 
 # Tools 
-Much of this book was created using [bash](https://gist.github.com/bubblin), CSS3, Sublime and Git. The context was forked with permission from Greg Koberger's [repo](https://github.com/gkoberger/startupnotes) on Github.
+Much of this book was created using a curious [bash script](https://gist.github.com/bubblin), CSS3, Sublime and Git. The context was forked with permission from Greg Koberger's [repo](https://github.com/gkoberger/startupnotes) on Github.
 
 
 # Tree
