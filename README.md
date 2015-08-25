@@ -66,4 +66,4 @@ Much of this book was created using [bash](https://gist.github.com/bubblin), CSS
 
 # License
 
-Yet to be placed.
+Available under <a href="http://opensource.org/licenses/mit-license.php">MIT license </a>.
